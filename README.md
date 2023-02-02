@@ -34,7 +34,7 @@ This is my first project using Spring Boot
     
 - Known Issues
   
-   -Fuel consumption is not yet programmed efficiently, using the Scheduled class to call the consume() method once per minute with the logic of consumption.
+   -Fuel consumption is not yet programmed efficiently, using the Scheduled class to call the consume() method that contains the logic of consumption, once per minute.
     In case the car runs out of fuel, the engine state will remain true and other functions that depend on the presence of fuel in the tank will also be affected.
     
    -Incorrect fuel consumption display is also yet to be resolved.
